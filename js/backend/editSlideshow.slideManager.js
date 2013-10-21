@@ -51,6 +51,21 @@ slideshow_jquery_image_gallery_backend_script.editSlideshow.slideManager = funct
 				uploaderTitle = externalData.localization.uploaderTitle;
 			}
 
+			// TODO The post selection does not work at all like this, not even with the original code.
+			// TODO Check if this might be a problem caused by the HTML including function.
+			// TODO Let's not hack all the things like the n00bs do, act pro. Stay frosty.
+			// TODO The double-zero in the word "n00b" actually deceives the spell-checker. I giggled.
+			// Create the uploader
+//			self.uploader = new slideshow_jquery_image_gallery_backend_script.mediaFrame.SlideManager2({
+//				frame   : 'post',
+//				title   : uploaderTitle,
+//				multiple: true,
+//				library :
+//				{
+//					type: 'image'
+//				}
+//			});
+
 			// Create the uploader
 			self.uploader = wp.media.frames.slideshow_jquery_image_galler_uploader = wp.media({
 				frame   : 'select',

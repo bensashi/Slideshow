@@ -36,6 +36,7 @@ slideshow_jquery_image_gallery_backend_script = function()
 	return self;
 }();
 
+// @codekit-append backend/mediaFrame.js
 // @codekit-append backend/generalSettings.js
 // @codekit-append backend/editSlideshow.js
 // @codekit-append backend/shortcode.js
