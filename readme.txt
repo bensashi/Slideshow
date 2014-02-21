@@ -5,7 +5,7 @@ Donate link: http://stefanboonstra.com/donate-to-slideshow/
 Tags: responsive, slideshow, slider, slide show, images, image, photo, video, text, gallery, galleries, jquery, javascript
 Requires at least: 3.5
 Tested up to: 3.7.1
-Stable tag: 2.2.19
+Stable tag: 2.2.19-devis
 License: GPLv2
 
 Integrate a fancy slideshow in just five steps. - Rainbows. Rainbows everywhere.
@@ -178,6 +178,13 @@ personal taste.
 
 
 == Changelog ==
+
+= 2.2.19-devis =
+*   version number used as base was 2.2.19 even though 2.2.20 is listed in the changelog since plugin was still technically versioned as 2.2.19
+*   made navigational buttons keyboard focusable/triggerable
+*   added screen reader text to navigational buttons
+*   added aria attributes to playback controls
+*   removed inactive slide links from tab order as they were causing inadvertent slide transitions on focus
 
 = 2.2.20 =
 *	Compatible with WordPress 3.7.
